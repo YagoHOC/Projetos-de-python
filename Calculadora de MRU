@@ -1,0 +1,11 @@
+print('Bem-vindo a calculadora de tempo-espaço do MRU!!!')
+print('A fórmula é S=So+v.t')
+print('S= Posição Final  So= Posição Inicial  V= Velocidade média T= Tempo decorrido')
+
+PosicaoI= float(input('Insira sua Posição Inicial (em centímetros): '))
+Tempo= float(input('Insira o tempo decorrido: '))
+Velocidade= float(input('Insira a velocidade durante o percurso: '))
+PosicaoF = (PosicaoI)+(Velocidade*Tempo)
+
+print('Sua Posição final foi de '+str(PosicaoF)+' centímetros')
+print('A fórmula final detalhada é  '+str(PosicaoF)+' = '+str(PosicaoI)+' + '+str(Velocidade)+' x '+str(Tempo))
