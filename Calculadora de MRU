@@ -9,3 +9,4 @@ PosicaoF = (PosicaoI)+(Velocidade*Tempo)
 
 print('Sua Posição final foi de '+str(PosicaoF)+' centímetros')
 print('A fórmula final detalhada é  '+str(PosicaoF)+' = '+str(PosicaoI)+' + '+str(Velocidade)+' x '+str(Tempo))
+print('A fórmula final simplificada é  '+str(round(PosicaoF))+' = '+str(round(PosicaoI))+' + '+str(round(Velocidade))+' x '+str(round(Tempo)))
